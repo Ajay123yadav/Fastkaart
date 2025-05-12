@@ -1,0 +1,57 @@
+.Header1Section{
+    background-color: #0da487;
+    padding:0px 100px;
+    display: flex;
+   justify-content: space-between;
+   color: white;
+   /* font-size: 20px; */
+   height: 50px;
+   overflow: hidden;
+}
+.location>.text{
+  font-size: 17px;
+  padding-top: 15px;
+    text-align: center;
+
+}
+.scroll-container {
+    height: 3em; /* Show only a few lines */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scroll-content {
+    font-size: 17px;
+    display: inline-block;
+    animation: scrollUp 10s linear infinite;
+  }
+  
+  @keyframes scrollUp {
+    0%   { transform: translateY(100%); }
+    100% { transform: translateY(-100%); }
+  }
+  .scroll-content>.text{
+    text-align: center;
+    justify-content: center;
+  }
+  .country{
+   align-items: center;
+   padding-right: 20px;
+   padding-top: 10px;
+   
+  }
+  .country-select{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+margin-left: 10px;
+  }
+  .opt{
+    color: black;
+ 
+  }
+ 
+

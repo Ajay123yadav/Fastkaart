@@ -1,0 +1,123 @@
+.GridSection{
+    margin-left: 50px;
+}
+.grid-image1{
+border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 150px;
+    font-size: 22px;
+    height: 560px;
+    width: 1000px;
+    background: url('../Assest/bg.jpg');
+}
+.shop{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.grid-image2{
+    height: 280px;
+    width: 450px;
+    background: url("../Assest/1.jpg");
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-image2{margin-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.shop1{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.grid-image3{
+    
+    padding-top: 40px;
+    padding-left: 20px;
+    height: 270px;
+    width: 450px;
+    background: url('../Assest/2.jpg');
+}
+.grid-image3>h3{
+    color: #0da487;
+}
+.column{
+    
+    gap: 15px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+.col1{
+    border-radius: 10px;
+     padding-top: 30px;
+    height: 230px;
+    width: 365px;
+    background: url('../Assest/c4.jpg');
+}
+.col-shop{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border: none;
+    background: none;
+    color: white;
+}
+.col2{
+
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-top: 30px;
+   height: 230px;
+   width: 365px;
+   background: url('../Assest/c1.jpg');
+}
+.col3{
+
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-top: 30px;
+   height: 230px;
+   width: 365px;
+   background: url('../Assest/c2.jpg');
+}
+.col4{
+
+    padding-left: 15px;
+    border-radius: 10px;
+    padding-top: 30px;
+   height: 230px;
+   width: 365px;
+   background: url('../Assest/c3.jpg');
+}
+
+/* hovering */
+.col1:hover{
+    opacity: 0.5;
+}
+.col2:hover{
+    opacity: 0.5;
+}
+.col3:hover{
+    opacity: 0.5;
+}
+.col4:hover{
+    opacity: 0.5;
+}
+
+

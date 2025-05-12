@@ -1,0 +1,91 @@
+.Header2Section{
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo-image{
+    height: 50px;
+    width: 250px;
+}
+.your-location>h5{
+    margin-top: 15px;
+ font-size: 21px;
+ border: 0.5px solid black;
+ padding: 5px 10px;
+border-radius: 5px;
+}
+.bar{
+    display: flex;
+    gap: 10px;
+}
+.Search{
+    padding-left: 10px;
+    border: 0.5px solid black;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 38px;
+    width: 300px;
+}
+.search-button{
+padding-bottom: 10px;
+    position: absolute;
+    border: none;
+    margin-top: 14px;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 50px;
+    background-color: gold;
+}
+.icons{
+    padding-top: 15px;
+}
+.icons>span{
+    font-size: 25px;
+}
+
+.icon:hover{
+   color:#0da487;
+}
+.location-a{
+    text-decoration: none;
+    color: #0da487;
+}
+.Location-button{
+    font-weight: 600;
+    border: none;
+    background: none;
+    color: #0da487;
+}
+.modal-footer{
+   list-style: none;
+   display: block; 
+   gap: 20px;
+}
+.modal-footer>p{
+    text-align: center;
+}
+.modal-links>li:hover{
+    background-color: #0da487;
+    color: white;
+}
+.Location-input{
+    padding-left: 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.modal{
+    margin-top: 100px;
+  
+}
+.modal-header{
+    background:none;  
+}

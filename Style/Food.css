@@ -1,0 +1,132 @@
+.bowsebySection>h2{
+    margin-top: 20px;
+    font-weight: 600;
+    border-bottom: 3px solid #0da487;
+    width: 320px;
+}
+.bowsebySection>p{
+    font-size: 18px;
+opacity: 0.5;
+}
+.bowse-image{
+  margin-left: 15px;
+}
+.slide-contents{
+  margin-left: 10px;
+}
+
+      .bowse-image1{
+        margin-top: 20px;
+        border-radius: 10px;
+       padding-left: 50px;
+       padding-top: 20px;
+        height: 170px;
+        width: 500px;
+        background: url('https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/10.jpg');
+      }
+      .bowse-image1>p{
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .bowse-image1>h4{
+        color: #0da487;
+        font-weight: 700;
+      }
+      .bowse-image2{
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+       padding-left: 50px;
+       padding-top: 20px;
+        height: 170px;
+        width: 500px;
+        background: url('https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/9.jpg')
+      }
+      .bowse-image2>h4{
+        color: #0da487;
+        font-weight: 700;
+      }
+      .bowse-image2>p{
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .slide-image{
+        padding: 10px;
+        height: 100px;
+        width: 120px;
+    }
+    .slide1{
+        border-radius: 10px;
+        text-align: center;
+        height: 150px;
+        width: 130px;
+        background-color:rgba(192, 192, 192, 0.266);
+    }
+
+
+.cart1{
+  border: 1px solid black;
+    text-align: center;
+    height: 300px;
+    width: 220px;
+    padding-top: 1px;
+    border-radius: 10px;
+}
+.food-cart{
+  
+  margin-left: 50px;
+  gap: 20px;
+}
+.fresh{ margin-top: 60px;
+  margin-left: 30px;
+  border-radius: 10px;
+padding-top: 40px;
+padding-left: 50px;
+  background: url('https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/8.jpg');
+  height: 810px;
+  width: 340px;
+}
+.seafood{
+  font-size: 18px;
+  color: gold;
+}
+.fresh>h2{
+  color: #0da487;
+  font-weight: 600;
+  font-size: 35px;
+}
+.every{
+  font-size: 18px;
+}
+.FoodSection{
+  margin-left: 18px;
+  margin-right: 60px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.food>h2{
+  font-weight: 600;
+  border-bottom: 3px solid #0da487;
+  width: 230px;
+}
+.food>p{
+  font-size: 18px;
+  opacity: 0.5;
+}.food{
+  margin-top: 30px;
+}
+
+
+
+/* hovering */
+
+.slide1:hover{
+  color: white;
+  background: url('https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/15.jpg');
+}
+.bowse-image1:hover{
+  opacity: 0.7;
+}
+.bowse-image2:hover{
+  opacity: 0.7;
+}

@@ -1,0 +1,67 @@
+.footer1{
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+    border-bottom: 2px dashed silver;
+}
+.fresh-product{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    border-right:2px dashed silver;
+}
+.fresh-product>img{
+    height: 50px;
+    width: 50px;
+}
+.Deliver{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    border-right:2px dashed silver;
+}
+.Deliver>img{
+    height: 50px;
+    width: 50px;
+}
+.discount{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    border-right:2px dashed silver;   
+}
+.discount>img{
+    height: 50px;
+    width: 50px;
+}
+.market{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    border-right:2px dashed silver;   
+}
+.market>img{
+    height: 50px;
+    width: 50px;}
+.address>img{
+    height: 50px;
+    width: 150px;
+}
+.footer2{
+    padding: 30px 90px;
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    border-bottom: 2px dashed silver;
+}
+.FooterSection{
+    margin: 0px 40px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 12px silver;
+}
+li:hover{
+    color: #0da487;
+}

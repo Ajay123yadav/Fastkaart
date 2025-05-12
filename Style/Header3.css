@@ -1,0 +1,65 @@
+.categories{
+    background-color: #0da487;
+    color: white;
+    border: none;
+    font-weight: 500;
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 5px;
+   margin-right: 20px;
+}
+.Header3Section{
+    margin-bottom: 10px;
+    margin-top: 2px;
+  padding-left: 100px;
+  padding-right: 100px;
+    display:flex;
+    /* justify-content: space-between; */
+}
+
+
+
+.dropdown-toggle{
+   
+    background: none;
+    border: none;
+     font-weight: 500;
+}
+.nav-links{
+    
+    display: flex;
+    gap: 50px;
+   
+}
+.deal-button{
+    padding: 0 25px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width:150px;
+    background: #76ccbbbe;
+    color: black;
+    font-weight: 500;
+}
+.dropdown-toggle:hover .dropdown-item{
+    display: block;
+    
+}
+.dropdown-item:hover{
+    color: #0da487;
+    border-bottom: #0da487;
+}
+.dropdown-item{
+font-weight: 400;
+}
+.background-image
+{
+    height: 200px;
+    width: 150px;
+    margin-right: 10px;
+}
+.mega{
+    background: url('https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/14.jpg');
+}
